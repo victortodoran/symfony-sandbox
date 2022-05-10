@@ -1,7 +1,12 @@
 # Description
 A quick symfony sandbox to try stuff out. Branch main contains skeleton. Each branch has a different POC
 
+# EntryPoint
+- Start a local server symfony serve -d 
+- Usually localhost::8000/test (TestController)
+
 # Prerequisites and Helpful Docs
+- PHP 8.1 or greater
 - Configure and create your DB 
   - https://symfony.com/doc/current/doctrine.html#configuring-the-database
 - To create entities use the maker bundle
