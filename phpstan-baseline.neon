@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method App\\\\Service\\\\TotalCalculator\\:\\:execute\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Service/TotalCalculator.php
+
+		-
+			message: "#^Method App\\\\Service\\\\TotalCalculator\\:\\:execute\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Service/TotalCalculator.php
+
+		-
+			message: "#^Method App\\\\Service\\\\TotalCalculator\\:\\:isNegativeItem\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Service/TotalCalculator.php
+
+		-
+			message: "#^Method App\\\\Service\\\\TotalCalculator\\:\\:isNegativeItem\\(\\) is unused\\.$#"
+			count: 1
+			path: src/Service/TotalCalculator.php
